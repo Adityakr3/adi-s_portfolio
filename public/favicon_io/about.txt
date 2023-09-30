@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Chakra Petch
+- Font Author: Copyright 2018 The Chakra Petch Project Authors (https://github.com/m4rc1e/Chakra-Petch.git)
+- Font Source: http://fonts.gstatic.com/s/chakrapetch/v9/cIf6MapbsEk7TDLdtEz1BwkmmKBhSL7Y1Q.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
