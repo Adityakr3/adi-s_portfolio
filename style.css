@@ -734,16 +734,25 @@ a:visited {
 
     background-size: cover;
     background-position: center;
+    background-image:url(./public/images/text.png);
 }
 
 .s16 {
-
+    background-size: contain;
     background-size: cover;
     background-position: 30%;
+    background-image: url(./public/images/todo.png);
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    text-decoration: none;
 }
 
-.s21 {
 
+.s21 {
     background-size: cover;
     background-position: center;
 }
@@ -779,7 +788,6 @@ a:visited {
 .s31 {
 
     background-size: cover;
-    background-image:url(./public/images/text.png);
 }
 
 .s36 {
