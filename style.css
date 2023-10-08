@@ -1158,12 +1158,11 @@ a:visited {
     flex-direction: column-reverse;
     /* justify-content: center; */
     align-items: center;
-    bottom: 8%;
+    bottom: 28%;
   }
 
   #realaboutright {
-    width: 80%;
-    margin-bottom: 30px;
+    display: none;
   }
 
   #realaboutleft {
