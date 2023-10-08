@@ -7,6 +7,7 @@
   font-family: primer;
   src: url(./public/fonts/Prime-Regular.otf);
 }
+/* this code is All Rights Reserved form aditya.tech */
 
 * {
   padding: 0;
@@ -98,18 +99,6 @@ body {
   left: 90%;
   transform: translate(-50%, -50%);
 }
-
-/* figure {
-  width: 100px;
-  height: 100px;
-  transform: translate(-50%, -65%);
-  margin: 0;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  pointer-events: none;
-} */
-
 .blades {
   width: 100%;
   height: 100%;
@@ -214,7 +203,6 @@ body {
   height: 86vh;
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
   justify-content: space-between;
   position: relative;
 }
@@ -407,7 +395,17 @@ a:visited {
 #skills:hover {
   cursor: default;
 }
-
+.point{
+    cursor: pointer;
+}
+.point:hover{
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 100px #03e9f4;
+}
+.bright{
+    text-shadow: 0 0 5px #03e9f4,
+    0 0 100px #03e9f4;
+}
 #skleft {
   width: 50%;
   height: 100%;
@@ -491,6 +489,7 @@ a:visited {
   position: relative;
   overflow: hidden;
 }
+/* this code is All Rights Reserved form aditya.tech */
 
 #arrow {
   display: none;
@@ -627,6 +626,7 @@ a:visited {
   justify-content: center;
   margin-bottom: 2%;
 }
+/* this code is All Rights Reserved form aditya.tech */
 
 #navabout h1 {
   color: rgba(255, 255, 255, 0.651);
@@ -686,6 +686,7 @@ a:visited {
   background-size: cover;
   background-position: center;
 }
+/* this code is All Rights Reserved form aditya.tech */
 
 .s22 {
   background-size: 130%;
@@ -862,21 +863,21 @@ a:visited {
   background-repeat: no-repeat;
 }
 
-#abhy {
+#adi {
   font-size: 4vw;
   font-weight: 600;
   color: rgb(211, 209, 209);
   padding-bottom: 10px;
 }
 
-#abhydesc {
+#adidesc {
   font-size: 20px;
   font-weight: 300;
   color: rgb(199, 199, 199);
   padding-bottom: 10px;
 }
 
-#abhydesc2 {
+#adidesc2 {
   font-size: 20px;
   font-weight: 300;
   color: rgb(199, 199, 199);
@@ -1008,6 +1009,7 @@ a:visited {
     width: 50vw;
   }
 }
+/* this code is All Rights Reserved form aditya.tech */
 
 @media screen and (max-width: 500px) {
   #Modelinfo {
@@ -1188,6 +1190,8 @@ a:visited {
     font-size: 18px;
     text-align: center;
   }
+  /* this code is All Rights Reserved form aditya.tech */
+
   #box4 > .footerBox > .social .sbox {
     height: 55px;
     width: 55px;
