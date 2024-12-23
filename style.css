@@ -1027,7 +1027,7 @@ a:visited {
 @media screen and (max-width: 500px) {
   #rem{
     width:100vw;
-    top: 85%;
+    top: 88%;
     gap: 7px;
     justify-content: space-evenly;
   }
