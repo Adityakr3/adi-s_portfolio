@@ -58,8 +58,7 @@ body {
   justify-content:end;
   gap:128px;
   padding-right: 10%;
-
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(60px);
 }
 
 #parentofall {
@@ -1027,13 +1026,14 @@ a:visited {
 
 @media screen and (max-width: 500px) {
   #rem{
-    width: 100vw;
+    width:100vw;
     top: 85%;
-    gap: 9px;
+    gap: 7px;
+    justify-content: space-evenly;
   }
   .resume2 , .resume1{
-    padding: 12px 38px;
-    font-size: .78rem;
+    padding: 12px 18px;
+    font-size: .8rem;
   }
   .resume1:hover , .resume2:hover{
     background-color: #000000;
