@@ -26,6 +26,88 @@ body {
 body {
   overflow-x: hidden;
 }
+
+#maintenance-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: none;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 40px 44px;
+  border-radius: 10px;
+  color: rgb(128, 27, 27);
+  z-index: 1000;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 900;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes tune {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+#maintenance-popup.show {
+  display: block;
+  animation: tune 1s infinite;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  background: none;
+  border: none;
+  color: white;
+}
+
+.popup-content {
+  text-align: center;
+}
+
+
+
+
+.close-btn{
+  width: 30px;
+  height: 30px;
+  border: 2px solid wheat;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  >i{
+    font-size: large;
+    font-weight: bold;
+  }
+}
+
+
+#maintenance-popup .popup-content {
+  position: relative;
+}
+
+#maintenance-popup .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
 .resume2 , .resume1{
   overflow: auto;
   box-shadow: 0 0 5px #03e9f4, 0 0 10px #03e9f4;
@@ -1025,6 +1107,11 @@ a:visited {
 /* this code is All Rights Reserved form aditya.tech */
 
 @media screen and (max-width: 500px) {
+  #maintenance-popup {
+
+    font-size: 18px;
+    
+  }
   #rem{
     width:100vw;
     top: 88%;

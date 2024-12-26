@@ -5,6 +5,17 @@ window.addEventListener("load", () => {
     e();
   }, 2522);
 });
+
+const popup = document.querySelector("#maintenance-popup");
+
+setTimeout(() => {
+  popup.classList.add("show");
+}, 9999);
+
+document.querySelector(".close-btn").addEventListener("click", function () {
+  popup.classList.remove("show");
+});
+
 function e() {
   gsap.from("#header .a", {
     x: 80,
