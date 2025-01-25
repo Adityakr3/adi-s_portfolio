@@ -734,7 +734,6 @@ a:visited {
 .s11 {
   background-size: cover;
   background-position: center;
-  background-image: url(./public/images/weather.webp);
 }
 
 .s12 {
@@ -780,6 +779,7 @@ a:visited {
 .s21 {
   background-size: cover;
   background-position: center;
+  background-image: url(./public/images/weather.webp);
 }
 /* this code is All Rights Reserved form aditya.tech */
 
