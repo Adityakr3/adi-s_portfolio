@@ -25,13 +25,7 @@
         </div>
       </div>
     </div>
-    <div id="maintenance-popup" class="popup">
-      <span class="close-btn"><i class="ri-close-line"></i></span>
-      <div class="popup-content">
-        <p>Site is under maintenance. We'll be back shortly with exciting updates!</p>
-        <audio id="popup-sound" src="./public/tune/mixkit-airplane-seatbelt-tone-1585.mp3"></audio>
-      </div>
-    </div>
+
     
     <div id="mcircle"></div>
     <div id="main">
@@ -45,10 +39,17 @@
           <a href="#">HOME</a>
           <a href="#projects">PROJECTS</a>
           <a href="#about">ABOUT</a>
-          <a href="#">CONTACT</a>
+          <a href="#contact">CONTACT</a>
         </div>
         <i id="en" class="ri-english-input"></i>
         <i id="hamburger" class="ri-menu-line"></i>
+      </div>
+      <div id="mobile-sidebar">
+        <div class="close-sidebar"><i class="ri-close-line"></i></div>
+        <a href="#">HOME</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#about">ABOUT</a>
+        <a href="#contact">CONTACT</a>
       </div>
       <div id="hnavkeniche">
         <div class="vnavleft">
@@ -89,22 +90,19 @@
             </h1>
           </div>
           <div id="skills">
-            <div id="skleft">
-              <div id="skleftchild">
-                <h5 class="point bright a">HTML 5</h5>
-                <h5 class="point a">CSS 3</h5>
-                <h5 class="point a">JavaScript ES6</h5>
-                <h5 class="point a" id="ib">GSAP</h5>
-              </div>
-            </div>
-            <div id="skright">
-              <div id="skrightchild">
-                <h5 class="point a">Node.JS</h5>
-                <h5 class="point a">Express.JS</h5>
-                <h5 class="point a">MongoDB</h5>
-                <h5 class="point a" id="ib">React.JS</h5>
-              </div>
-            </div>
+            <h5 class="point bright a">HTML 5</h5>
+            <h5 class="point a">CSS 3</h5>
+            <h5 class="point a">JavaScript ES6</h5>
+            <h5 class="point a" id="ib">GSAP</h5>
+            <h5 class="point a">ScrollTrigger</h5>
+            <h5 class="point a">React.JS</h5>
+            <h5 class="point a">Node.JS</h5>
+            <h5 class="point a">Express.JS</h5>
+            <h5 class="point a">MongoDB</h5>
+            <h5 class="point a">PostgreSQL</h5>
+            <h5 class="point a">SQL</h5>
+            <h5 class="point a">Git</h5>
+            <h5 class="point a">GitHub</h5>
           </div>
         </div>
         <div class="vnavright">
@@ -144,40 +142,117 @@
                 <source src="./public/video/v1.mp4" type="video/mp4">
               </video>
               <a class="overlay-link" href="https://animation-beta-five.vercel.app">
-
+                <div class="project-overlay">
+                  <h3>Animation Beta</h3>
+                  <span class="view-btn">View</span>
+                </div>
               </a>
             </div>
-            <a class="s12" id="yellow" href="https://adityakr3.github.io/Explore-Landing-Page-/"></a>
-            <a class="s13" href="https://adityakr3.github.io/lagunitas-website/"></a>
+            <a class="s12" id="yellow" href="https://adityakr3.github.io/Explore-Landing-Page-/">
+              <div class="project-overlay">
+                <h3>Explore Landing</h3>
+                <span class="view-btn">View</span>
+              </div>
+            </a>
+            <a class="s13" href="https://adityakr3.github.io/lagunitas-website/">
+              <div class="project-overlay">
+                <h3>Lagunitas Clone</h3>
+                <span class="view-btn">View</span>
+              </div>
+            </a>
           </div>
           <div id="p1line">
-            <a class="s14" href="https://adityakr3.github.io/Tik-tok-game/"> jhgjhgjhg </a>
-            <a class="s15" href="https://translater-upper-case-and-lower-case.vercel.app"></a>
-            <a class="s16" href="#"></a>
+            <a class="s14" href="https://adityakr3.github.io/Tik-tok-game/">
+              <div class="project-overlay">
+                <h3>Tic Tac Toe</h3>
+                <span class="view-btn">View</span>
+              </div>
+            </a>
+            <a class="s15" href="https://translater-upper-case-and-lower-case.vercel.app">
+              <div class="project-overlay">
+                <h3>Text Translator</h3>
+                <span class="view-btn">View</span>
+              </div>
+            </a>
+            <a class="s16" href="#">
+              <div class="project-overlay">
+                <h3>Todo App</h3>
+                <span class="view-btn">View</span>
+              </div>
+            </a>
           </div>
         </div>
         <div id="slide2">
           <div id="p1line">
-            <a class="s21" href="https://weather-application-using-weather-api-dxff.vercel.app"></a>
-            <a class="s22 text" href="#">Coming soon......</a>
-            <a class="s23 text" href="#">Coming soon......</a>
+            <a class="s21" href="https://weather-application-using-weather-api-dxff.vercel.app">
+              <div class="project-overlay">
+                <h3>Weather App</h3>
+                <span class="view-btn">View</span>
+              </div>
+            </a>
+            <a class="s22 text" href="#">
+              <div class="project-overlay">
+                <h3>Coming soon</h3>
+              </div>
+            </a>
+            <a class="s23 text" href="#">
+              <div class="project-overlay">
+                <h3>Coming soon</h3>
+              </div>
+            </a>
           </div>
           <div id="p1line">
-            <a class="s24 text" href="#">Coming soon......</a>
-            <a class="s25 text" href="#">Coming soon......</a>
-            <a class="s26 text" href="#">Coming soon......</a>
+            <a class="s24 text" href="#">
+              <div class="project-overlay">
+                <h3>Coming soon</h3>
+              </div>
+            </a>
+            <a class="s25 text" href="#">
+              <div class="project-overlay">
+                <h3>Coming soon</h3>
+              </div>
+            </a>
+            <a class="s26 text" href="#">
+              <div class="project-overlay">
+                <h3>Coming soon</h3>
+              </div>
+            </a>
           </div>
         </div>
         <div id="slide3">
           <div id="p1line">
-            <a class="s31 text" href="">Coming soon......</a>
-            <a class="s32 text" href="">Coming soon......</a>
-            <a class="s33 text" href="#">Coming soon......</a>
+            <a class="s31 text" href="#">
+              <div class="project-overlay">
+                <h3>Coming soon</h3>
+              </div>
+            </a>
+            <a class="s32 text" href="#">
+              <div class="project-overlay">
+                <h3>Coming soon</h3>
+              </div>
+            </a>
+            <a class="s33 text" href="#">
+              <div class="project-overlay">
+                <h3>Coming soon</h3>
+              </div>
+            </a>
           </div>
           <div id="p1line">
-            <a class="s34 text" href="#">Coming soon......</a>
-            <a class="s35 text" href="#">Coming soon......</a>
-            <a class="s36 text" href="#">Coming soon......</a>
+            <a class="s34 text" href="#">
+              <div class="project-overlay">
+                <h3>Coming soon</h3>
+              </div>
+            </a>
+            <a class="s35 text" href="#">
+              <div class="project-overlay">
+                <h3>Coming soon</h3>
+              </div>
+            </a>
+            <a class="s36 text" href="#">
+              <div class="project-overlay">
+                <h3>Coming soon</h3>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -223,12 +298,35 @@
         <div id="realaboutright"></div>
       </div>
     </div>
+    <div id="contact">
+      <div id="navcontact">
+        <h1>Contact</h1>
+      </div>
+      <div class="contact-container">
+        <div class="contact-glass">
+          <h2>Get in Touch</h2>
+          <p>Let's build something amazing together!</p>
+          <form class="contact-form">
+            <div class="input-group">
+              <input type="text" placeholder="Your Name" required />
+            </div>
+            <div class="input-group">
+              <input type="email" placeholder="Your Email" required />
+            </div>
+            <div class="input-group">
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message <i class="ri-send-plane-fill"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
     <section id="box4">
       <div class="footerBox">
         <div class="social">
-          <div class="sbox"><a href="https://github.com/Adityakr3"><img src="/public/images/github.png"></a></div>
-          <div class="sbox"><a href="https://www.linkedin.com/in/aditya-kumar-5444541a0/"><img src="/public/images/linkedin.png"></a></div>
-          <div class="sbox"><a href="https://instagram.com/aayan_raj_adi?igshid=OGQ5ZDc2ODk2ZA=="><img src="/public/images/instagram.png"></a></div>
+          <div class="sbox"><a href="https://github.com/Adityakr3"><img src="./public/images/github.png"></a></div>
+          <div class="sbox"><a href="https://www.linkedin.com/in/aditya-kumar-5444541a0/"><img src="./public/images/linkedin.png"></a></div>
+          <div class="sbox"><a href="https://instagram.com/aayan_raj_adi?igshid=OGQ5ZDc2ODk2ZA=="><img src="./public/images/instagram.png"></a></div>
         </div>
         <h4>@2023 Aditya_Kumar All Rights Reserved.</h4>
       </div>

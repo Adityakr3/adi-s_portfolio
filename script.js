@@ -6,14 +6,43 @@ window.addEventListener("load", () => {
   }, 2522);
 });
 
-const popup = document.querySelector("#maintenance-popup");
+// Mobile Sidebar Toggle
+const hamburger = document.querySelector("#hamburger");
+const sidebar = document.querySelector("#mobile-sidebar");
+const closeSidebar = document.querySelector(".close-sidebar");
 
-setTimeout(() => {
-  popup.classList.add("show");
-}, 9999);
+if (hamburger && sidebar && closeSidebar) {
+  hamburger.addEventListener("click", () => {
+    sidebar.classList.add("active");
+  });
+  closeSidebar.addEventListener("click", () => {
+    sidebar.classList.remove("active");
+  });
+}
 
-document.querySelector(".close-btn").addEventListener("click", function () {
-  popup.classList.remove("show");
+// Cursor interaction
+const links = document.querySelectorAll("a, button, .point, .view-btn, .submit-btn");
+const mcircle = document.querySelector("#mcircle");
+links.forEach(link => {
+  link.addEventListener("mouseenter", () => {
+    mcircle.classList.add("cursor-hover");
+  });
+  link.addEventListener("mouseleave", () => {
+    mcircle.classList.remove("cursor-hover");
+  });
+});
+
+// Contact section animation
+gsap.from(".contact-glass", {
+  scrollTrigger: {
+    trigger: "#contact",
+    scroller: "body",
+    start: "top 80%",
+    end: "bottom 60%",
+    scrub: true,
+  },
+  y: 50,
+  opacity: 0,
 });
 
 function e() {
